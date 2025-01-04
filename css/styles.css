@@ -1,6 +1,14 @@
 body {
-    background-color: black;
+  background-color: black;
+  color: coral;
+  font-family: 'Roboto';font-size: 22px;
 }
 h1 {
-    color: coral;
+  color: coral;
+  font-family: 'Roboto';font-size: 18px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 14px;
 }
