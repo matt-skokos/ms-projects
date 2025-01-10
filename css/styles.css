@@ -1,6 +1,16 @@
 /*
 color palette : https://www.colourlovers.com/palette/154705/Panda_vs_Bamboo --> 
 */
+
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #121310;
+}
+.footer {
+  background-color: #121310;
+}
 body {
   background-color: #121310;
   color: #F6F8EE;
@@ -18,7 +28,7 @@ p {
   font-size: 14px;
 }
 
-.name {
+.section-title {
     /* color: #F6F8EE;
     font-family: 'Roboto', sans-serif;
     font-size: 42px; */
@@ -27,4 +37,50 @@ p {
     font-size: 3rem;
     font-weight: 900;
     text-transform: lowercase;
+}
+.about {
+  width: 7rem;
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+.nav_menu {
+    /* color: #F6F8EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px; */
+    width: 7rem;
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+.nav_menu li {
+  color: #F6F8EE;
+  width: 7rem;
+  margin: 1rem;
+  align-items: right;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+.nav_menu li:hover {
+  color: #899752;
+  width: 7rem;
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.pdf,
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
